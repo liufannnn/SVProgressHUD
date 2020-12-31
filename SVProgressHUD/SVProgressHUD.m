@@ -415,6 +415,8 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         _imageViewSize = CGSizeMake(28.0f, 28.0f);
         _shouldTintImages = YES;
         
+        /*
+         修改于：刘帆，2020.06.05
         NSBundle *bundle = [NSBundle bundleForClass:[SVProgressHUD class]];
         NSURL *url = [bundle URLForResource:@"SVProgressHUD" withExtension:@"bundle"];
         NSBundle *imageBundle = [NSBundle bundleWithURL:url];
@@ -422,6 +424,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         _infoImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"info" ofType:@"png"]];
         _successImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"success" ofType:@"png"]];
         _errorImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"error" ofType:@"png"]];
+        */
 
         _ringThickness = 2.0f;
         _ringRadius = 18.0f;
@@ -914,8 +917,8 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
                                                             object:self
                                                           userInfo:[self notificationUserInfo]];
         
-        // Zoom HUD a little to to make a nice appear / pop up animation
-        self.hudView.transform = self.hudView.transform = CGAffineTransformScale(self.hudView.transform, 1.3f, 1.3f);
+        // Shrink HUD to to make a nice appear / pop up animation
+        self.hudView.transform = self.hudView.transform = CGAffineTransformScale(self.hudView.transform, 1/1.5f, 1/1.5f);
         
         __block void (^animationsBlock)(void) = ^{
             // Zoom HUD a little to make a nice appear / pop up animation

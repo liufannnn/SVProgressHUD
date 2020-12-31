@@ -13,7 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2265DEEE14706A8900B3EBF7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2265DEED14706A8900B3EBF7 /* README.md */; };
 		22B9D43816B92E4D00E71652 /* SVProgressHUD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 22B9D43716B92E4D00E71652 /* SVProgressHUD.podspec */; };
-		22D13AB71365FEAC0025FCC9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22D13AB61365FEAC0025FCC9 /* SVProgressHUD.bundle */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28D7ACF80DDB3853001CB0EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ViewController.m */; };
 		3C0DE6921F6096230062BA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DE68E1F6096230062BA4A /* LaunchScreen.storyboard */; };
@@ -31,7 +30,6 @@
 		D396A65E1BE7EB4700E6E1BF /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD078E91A3B809500290D80 /* SVRadialGradientLayer.m */; };
 		D396A65F1BE7EB4B00E6E1BF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ADC4BA1364C1360060E45B /* SVProgressHUD.m */; };
 		D396A6601BE7EB4D00E6E1BF /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07118281A3264C900C8A614 /* SVIndefiniteAnimatedView.m */; };
-		D396A6611BE7F6BF00E6E1BF /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22D13AB61365FEAC0025FCC9 /* SVProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +40,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2265DEED14706A8900B3EBF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		22B9D43716B92E4D00E71652 /* SVProgressHUD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SVProgressHUD.podspec; path = ../SVProgressHUD.podspec; sourceTree = "<group>"; };
-		22D13AB61365FEAC0025FCC9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28D7ACF60DDB3853001CB0EB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -157,7 +154,6 @@
 				B07118281A3264C900C8A614 /* SVIndefiniteAnimatedView.m */,
 				3C32D91F1CAC66CA009CDAB0 /* SVProgressAnimatedView.h */,
 				3C32D9201CAC66CA009CDAB0 /* SVProgressAnimatedView.m */,
-				22D13AB61365FEAC0025FCC9 /* SVProgressHUD.bundle */,
 				63ADC4B91364C1360060E45B /* SVProgressHUD.h */,
 				63ADC4BA1364C1360060E45B /* SVProgressHUD.m */,
 				3CD078E81A3B809500290D80 /* SVRadialGradientLayer.h */,
@@ -264,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0DE6921F6096230062BA4A /* LaunchScreen.storyboard in Resources */,
-				22D13AB71365FEAC0025FCC9 /* SVProgressHUD.bundle in Resources */,
 				2265DEEE14706A8900B3EBF7 /* README.md in Resources */,
 				3C0DE6931F6096230062BA4A /* Main.storyboard in Resources */,
 				22B9D43816B92E4D00E71652 /* SVProgressHUD.podspec in Resources */,
@@ -275,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D396A6611BE7F6BF00E6E1BF /* SVProgressHUD.bundle in Resources */,
 				D36EDBDB1BE7E9B100BD0EF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
